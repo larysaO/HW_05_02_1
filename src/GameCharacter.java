@@ -20,5 +20,14 @@ public abstract class GameCharacter {
     public double getHealth() {
         return health;
     }
+    public void levelUp(){
+        if (level <5) {
+            level++;
+            System.out.println(name + " Povisil level do" + level);
+        }else {
+            System.out.println(name+ "Max level");
+        }
+
+    }
 
 }
