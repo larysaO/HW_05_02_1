@@ -29,5 +29,8 @@ public abstract class GameCharacter {
         }
 
     }
+    public void damage (int damage){
+        health-=damage;
+    }
 
 }
