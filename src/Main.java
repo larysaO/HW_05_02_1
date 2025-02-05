@@ -16,6 +16,12 @@ attack() (атаковать)
 */
 public class Main {
     public static void main(String[] args) {
+       GameCharacter[] characters={
+               new Warrior( "Tara",1, 30,true),
+               new Archer( "Robin Gut",4, 50),
+               new Mage( "Koldun",1, 30)
+
+       };
 
     }
 }
